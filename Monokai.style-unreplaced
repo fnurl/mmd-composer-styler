@@ -1,0 +1,244 @@
+# Monokai MultiMarkdown Composer style                                #
+# by Jody Foo http://fnurl.se                                         #
+# Original TextMate Color Scheme by Wimer Hazenberg                   #
+# (http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/)       #
+# Markdown color selection inspired by the Vim Molokai theme by       #
+# Tomas Restrepo http://www.vim.org/scripts/script.php?script_id=2340 #
+# and the Multimarkdown Composer Solarized Dark style                 #
+
+#	Monokai   HEX     NAME (http://chir.ag/projects/name-that-color/)
+#	base0     #002b36 Heavy Metal
+#	base1     #49483e Armadillo 
+#	base2     #75715e Crocodile 
+#	base3     #f8f8f0 Spring Wood 
+#	base4     #f8f8f2 Spring Wood Light 
+#	sand      #e6db74 Chenin 
+#	lilac     #ae81ff Heliotrope 
+#	pink      #f92672 Radical Red 
+#	cyan      #66d9ef Spray
+#	pear      #a6e22e Pear
+#	orange    #fd971f Tree Poppy
+
+editor
+foreground: #base3
+background: #base0
+
+editor-selection
+foreground: #base3
+background: #base2
+
+editor-current-line
+foreground: #base3
+background: #base1
+ 
+LINK
+foreground: 
+background: 
+font-style: 
+ 
+AUTO_LINK_URL
+foreground: 
+background: 
+font-style: 
+ 
+AUTO_LINK_EMAIL
+foreground: 
+background: 
+font-style: 
+ 
+IMAGE
+foreground: 
+background: 
+font-style: 
+ 
+CODE
+foreground: 
+background: 
+font-style: 
+ 
+HTML
+foreground: 
+background: 
+ 
+HTML_ENTITY
+foreground: 
+background: 
+font-style: 
+ 
+EMPH
+font-style: italic
+ 
+STRONG
+font-style: bold
+ 
+LIST_BULLET
+foreground: 
+background: 
+font-style: 
+ 
+LIST_ENUMERATOR
+foreground: 
+background: 
+font-style: 
+ 
+COMMENT
+foreground: #base2
+background: #base0
+font-style: italic
+ 
+H1
+foreground: 
+background: 
+font-style: 
+ 
+H2
+foreground: 
+background: 
+font-style: 
+ 
+H3
+foreground: 
+background: 
+font-style: 
+ 
+H4
+foreground: 
+background: 
+font-style: 
+ 
+H5
+foreground: 
+background: 
+font-style: 
+ 
+H6
+foreground: 
+background: 
+font-style: 
+ 
+BLOCKQUOTE
+foreground: 
+background: 
+font-style: 
+ 
+VERBATIM
+foreground: 
+background: 
+font-style: 
+ 
+HTMLBLOCK
+foreground: 
+background: 
+font-style: 
+ 
+HRULE
+foreground: 
+background: 
+font-style: 
+ 
+REFERENCE
+foreground: 
+background: 
+font-style: 
+ 
+NOTE
+foreground: 
+background: 
+font-style: 
+ 
+METADATA
+foreground: 
+background: 
+font-style: 
+ 
+METAKEY
+foreground: 
+background: 
+font-style: 
+ 
+METAVALUE
+foreground: 
+background: 
+font-style: 
+ 
+CITATION
+foreground: 
+background: 
+font-style: 
+ 
+FOOTNOTE
+foreground: 
+background: 
+font-style: 
+ 
+FOOTNOTEREF
+foreground: 
+background: 
+font-style: 
+ 
+GLOSSARY
+foreground: 
+background: 
+font-style: 
+ 
+MATHSPAN
+foreground: 
+background: 
+font-style: 
+ 
+FUTURETABLE
+foreground: 
+background: 
+font-style: 
+ 
+TABLE
+foreground: 
+background: 
+font-style: 
+ 
+TABLEROW
+foreground: 
+background: 
+font-style: 
+ 
+TABLESEPARATOR
+foreground: 
+background: 
+font-style: 
+ 
+CELLCONTENTS
+foreground: 
+background: 
+font-style: 
+ 
+DEFTERM
+foreground: 
+background: 
+font-style: 
+ 
+DEFINITION
+foreground: 
+background: 
+font-style: 
+ 
+PARA
+foreground: 
+background: 
+font-style: 
+ 
+LABEL
+foreground: 
+background: 
+font-style: 
+ 
+HARDBREAK
+foreground: 
+background: 
+font-style: 
+ 
+LIST
+foreground: 
+background: 
+font-style: 
+ 
+
