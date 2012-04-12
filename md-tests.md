@@ -6,7 +6,7 @@ This is a *test*. Does this _mean_ that here has to be a space between the headi
 	Here is a block of html
 </div>
 
-This is a link to my [homepage][] using the implicit syntax. This is a [link][git] to the git homepage using an explicit reference. And here is an automatic link to google: <http://google.com>, and my email address: <jody.foo@gmail.com>.
+This is a link to my [homepage][] using the implicit syntax. This is a [link][git] to the git homepage using an explicit reference. And here is an automatic link to google: <http://google.com>, and my email address: <abc.defg@hij.klm>.
 
 ## Heading level 2
 

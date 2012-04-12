@@ -16,4 +16,4 @@ Run colrep.py and save output to a file. E.g.
 
 	$ ./colrep.py mystyle.colstyle > mystyle.style
 
-
+Use the file `md-tests.md` to try your style in MultiMarkdown Composer.

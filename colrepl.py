@@ -54,23 +54,17 @@ def main(argv):
             # replace colorkey in line with colorvalue
             for color_name, color_value in color_replacements.iteritems():
                 line = line.replace(color_name, color_value)
-            #line = line.replace("#base0", "272822 #base0")
-            #line = line.replace("#base1", "49483e #base1")
-            #line = line.replace("#base2", "75715e #base2")
-            #line = line.replace("#base3", "f8f8f0 #base3")
-            #line = line.replace("#base4", "f8f8f2 #base4")
-            #line = line.replace("#sand", "e6db74 #sand")
-            #line = line.replace("#lilac", "ae81ff #lilac")
-            #line = line.replace("#pink", "f92672 #pink")
-            #line = line.replace("#cyan", "66d9ef #cyan")
-            #line = line.replace("#pear", "a6e22e #pear")
-            #line = line.replace("#orange", "fd971f #orange")
 
             # ignore empty lines
             if line == "":
                 continue
             # single line break for attribute lines
-            elif line.startswith("foreground") | line.startswith("background") | line.startswith("font-style") | line.startswith("font-size") | line.startswith("caret") | line.startswith("#"):
+            elif line.startswith("foreground") | \
+                 line.startswith("background") | \
+                 line.startswith("font-style") | \
+                 line.startswith("font-size") | \
+                 line.startswith("caret") | \
+                 line.startswith("#"):
                 sys.stdout.write(line.encode('utf-8') + '\n')
             # double line breaks for element lines
             else:
@@ -83,8 +77,8 @@ def main(argv):
 
 def usage():
     print '''USAGE: colrep.py [options] <filename>
-        Replaces specified named colors in a .colstyle file with their
-        RGB specified values.
+    Replaces specified named colors in a .colstyle file with their
+    RGB specified values.
 
     -h              show help
     -s, --nosize    do not include font size specifications
