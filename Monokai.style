@@ -2,250 +2,117 @@
 # by Jody Foo http://fnurl.se                                         #
 # Original TextMate Color Scheme by Wimer Hazenberg                   #
 # (http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/)       #
-# Markdown color selection inspired by the Vim Molokai theme by       #
-# Tomas Restrepo http://www.vim.org/scripts/script.php?script_id=2340 #
-
-#	Monokai   HEX     NAME (http://chir.ag/projects/name-that-color/)
-#	base0     #002b36 Heavy Metal
-#	base1     #49483e Armadillo 
-#	base3     #75715e Crocodile 
-#	base4     #f8f8f0 Spring Wood 
-#	base5     #f8f8f2 Spring Wood Light 
-#	sand      #e6db74 Chenin 
-#	lilac     #ae81ff Heliotrope 
-#	pink      #f92672 Radical Red 
-#	cyan      #66d9ef Spray
-#	pear      #a6e22e Pear
-#	orange    #fd971f Tree Poppy
-
-editor
-foreground: #base0
-background:
-font-style: 
-
-editor-selection
-foreground:
-background:
-font-style:
-
-editor-current-line
-foreground:
-background:
-font-style:
-
-LINK
-foreground:
-background:
-font-style:
-
-AUTO_LINK_URL
-foreground:
-background:
-font-style:
-
-AUTO_LINK_EMAIL
-foreground:
-background:
-font-style:
-
-IMAGE
-foreground:
-background:
-font-style:
-
-CODE
-foreground:
-background:
-font-style:
-
-HTML
-foreground:
-background:
-font-style:
-
-HTML_ENTITY
-foreground:
-background:
-font-style:
-
-EMPH
-foreground:
-background:
-font-style:
-
-STRONG
-foreground:
-background:
-font-style:
-
-LIST_BULLET
-foreground:
-background:
-font-style:
-
-LIST_ENUMERATOR
-foreground:
-background:
-font-style:
-
-COMMENT
-foreground:
-background:
-font-style:
+#                                                                     #
+# Lines starting with #! are special color name/RGB color code lines  #
+# used by colrep.py to substitute color names for their color codes   #
+#
+# Lines starting with // are ignored by colrep.py and are filtered
+# from the output.
+#
+#	Monokai   HEX
+#!	272822    272822
+#!	49483e    49483e
+#!	75715e    75715e
+#!	f8f8f0    f8f8f0
+#!	f8f8f2    f8f8f2
+#!	e6db74     e6db74
+#!	ae81ff    ae81ff
+#!	f92672     f92672
+#!	66d9ef     66d9ef
+#!	a6e22e     a6e22e
+#!	fd971f   fd971f
 
 H1
-foreground:
-background:
-font-style:
+foreground: fd971f
+font-style: bold
 
 H2
-foreground:
-background:
-font-style:
+foreground: fd971f
+font-style: italic
 
 H3
-foreground:
-background:
-font-style:
+foreground: fd971f
+font-style: bold
 
 H4
-foreground:
-background:
-font-style:
+foreground: fd971f
+font-style: italic
 
 H5
-foreground:
-background:
-font-style:
+foreground: fd971f
+font-style: bold
 
 H6
-foreground:
-background:
-font-style:
-
-BLOCKQUOTE
-foreground:
-background:
-font-style:
-
-VERBATIM
-foreground:
-background:
-font-style:
-
-HTMLBLOCK
-foreground:
-background:
-font-style:
-
-HRULE
-foreground:
-background:
-font-style:
-
-REFERENCE
-foreground:
-background:
-font-style:
-
-NOTE
-foreground:
-background:
-font-style:
-
-METADATA
-foreground:
-background:
-font-style:
-
-METAKEY
-foreground:
-background:
-font-style:
-
-METAVALUE
-foreground:
-background:
-font-style:
-
-CITATION
-foreground:
-background:
-font-style:
-
-FOOTNOTE
-foreground:
-background:
-font-style:
-
-FOOTNOTEREF
-foreground:
-background:
-font-style:
-
-GLOSSARY
-foreground:
-background:
-font-style:
-
-MATHSPAN
-foreground:
-background:
-font-style:
-
-FUTURETABLE
-foreground:
-background:
-font-style:
-
-TABLE
-foreground:
-background:
-font-style:
-
-TABLEROW
-foreground:
-background:
-font-style:
-
-TABLESEPARATOR
-foreground:
-background:
-font-style:
-
-CELLCONTENTS
-foreground:
-background:
-font-style:
-
-DEFTERM
-foreground:
-background:
-font-style:
-
-DEFINITION
-foreground:
-background:
-font-style:
+foreground: fd971f
+font-style: italic
 
 PARA
-foreground:
-background:
-font-style:
+foreground: f8f8f0
 
-LABEL
-foreground:
-background:
-font-style:
+LINK
+foreground: e6db74
+font-style: italic
+#font-size: 10px
 
-HARDBREAK
-foreground:
-background:
-font-style:
+AUTO_LINK_URL
+foreground: e6db74
+font-style: italic
 
-LIST (version 1.0.3+)
-foreground:
-background:
-font-style:
+AUTO_LINK_EMAIL
+foreground: e6db74
+font-style: italic
 
+IMAGE
+foreground: e6db74
+font-style: italic
 
+CODE
+foreground: a6e22e
+
+HTML
+foreground: a6e22e
+
+HTML_ENTITY
+foreground: a6e22e
+
+EMPH
+foreground: 66d9ef
+font-style: italic
+background: 272822
+
+STRONG
+foreground: 66d9ef
+font-style: bold
+
+LIST
+foreground: f8f8f0
+background: 272822
+
+LIST_BULLET
+foreground: ae81ff
+
+LIST_ENUMERATOR
+foreground: ae81ff
+
+COMMENT
+foreground: 75715e
+font-style: italic
+
+BLOCKQUOTE
+foreground: ae81ff
+font-style: italic
+
+BLOCKQUOTE_MARKER
+foreground: f92672
+
+VERBATIM
+foreground: a6e22e
+
+editor
+foreground: f8f8f0
+background: 272822
+caret: f8f8f2
+
+editor-selection
+foreground: f8f8f0
+background: 75715e
