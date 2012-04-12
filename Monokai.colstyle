@@ -2,243 +2,300 @@
 # by Jody Foo http://fnurl.se                                         #
 # Original TextMate Color Scheme by Wimer Hazenberg                   #
 # (http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/)       #
-# Markdown color selection inspired by the Vim Molokai theme by       #
-# Tomas Restrepo http://www.vim.org/scripts/script.php?script_id=2340 #
-# and the Multimarkdown Composer Solarized Dark style                 #
+#                                                                     #
+# Lines starting with #! are special color name/RGB color code lines  #
+# used by colrep.py to substitute color names for their color codes   #
+#
+# Lines starting with // are ignored by colrep.py and are filtered
+# from the output.
+#
+#	Monokai   HEX    
+#!	#base0    272822
+#!	#base1    49483e
+#!	#base2    75715e
+#!	#base3    f8f8f0
+#!	#base4    f8f8f2
+#!	#sand     e6db74
+#!	#lilac    ae81ff
+#!	#pink     f92672
+#!	#cyan     66d9ef
+#!	#pear     a6e22e
+#!	#orange   fd971f
 
-#	Monokai   HEX     NAME (http://chir.ag/projects/name-that-color/)
-#	base0     #002b36 Heavy Metal
-#	base1     #49483e Armadillo 
-#	base2     #75715e Crocodile 
-#	base3     #f8f8f0 Spring Wood 
-#	base4     #f8f8f2 Spring Wood Light 
-#	sand      #e6db74 Chenin 
-#	lilac     #ae81ff Heliotrope 
-#	pink      #f92672 Radical Red 
-#	cyan      #66d9ef Spray
-#	pear      #a6e22e Pear
-#	orange    #fd971f Tree Poppy
+H1
+foreground: #orange
+//background: #base0
+font-style: bold
+//font-size: 18px
+
+H2
+foreground: #orange
+//background: #base0
+font-style: italic
+//font-size: 18px
+
+H3
+foreground: #orange
+//background: #base0
+font-style: bold
+//font-size: 14px
+
+H4
+foreground: #orange
+//background: #base0
+font-style: italic
+//font-size: 14px
+
+H5
+foreground: #orange
+//background: #base0
+font-style: bold
+//font-size: 10px
+
+H6
+foreground: #orange
+//background: #base0
+font-style: italic
+//font-size: 10px
+
+PARA
+foreground: #base3
+//background: #base0
+// font-style:
+//font-size: 10px
+
+LINK
+foreground: #sand
+//background: #base0
+font-style: italic
+#font-size: 10px
+
+AUTO_LINK_URL
+foreground: #sand
+//background: #base0
+font-style: italic
+//font-size: 10px
+
+AUTO_LINK_EMAIL
+foreground: #sand
+//background: #base0
+font-style: italic
+//font-size: 10px
+
+IMAGE
+foreground: #sand
+//background: #base0
+font-style: italic
+//font-size: 10px
+
+CODE
+foreground: #pear
+//background: #base0
+//font-style:
+//font-size: 10px
+
+HTML
+foreground: #pear
+//background: #base0
+//font-size: 10px
+
+HTML_ENTITY
+foreground: #pear
+//background: #base0
+//font-style:
+//font-size: 10px
+
+EMPH
+foreground: #cyan
+font-style: italic
+background: #base0
+//font-size: 10px
+
+STRONG
+foreground: #cyan
+font-style: bold
+//font-size: 10px
+
+LIST
+foreground: #base3
+background: #base0
+//font-style:
+//font-size: 10px
+
+LIST_BULLET
+foreground: #lilac
+//background: #base0
+//font-style:
+//font-size: 10px
+
+LIST_ENUMERATOR
+foreground: #lilac
+//background: #base0
+//font-style:
+//font-size: 10px
+
+COMMENT
+foreground: #base2
+//background: #base0
+font-style: italic
+//font-size: 10px
+
+BLOCKQUOTE
+foreground: #lilac
+//background:
+font-style: italic
+//font-size: 10px
+
+BLOCKQUOTE_MARKER
+foreground: #pink
+//background:
+//font-style:
+//font-size: 10px
+
+VERBATIM
+foreground: #pear
+//background:
+//font-style:
+//font-size: 10px
+
+// HTMLBLOCK
+//foreground: #sand
+//background: #base0
+//font-style:
+//font-size: 10px
+
+//HRULE
+//foreground:
+//background:
+//font-style:
+//font-size: 10px
+
+//REFERENCE
+//foreground: #pear
+//background: #base0
+//font-style:
+//font-size: 10px
+
+//NOTE
+//foreground:
+//background:
+//font-style:
+//font-size: 10px
+
+//METADATA
+//foreground:
+//background:
+//font-style:
+//font-size: 10px
+
+//METAKEY
+//foreground:
+//background:
+//font-style:
+//font-size: 10px
+
+//METAVALUE
+//foreground:
+//background:
+//font-style:
+//font-size: 10px
+
+//CITATION
+//foreground:
+//background:
+//font-style:
+//font-size: 10px
+
+//FOOTNOTE
+//foreground:
+//background:
+//font-style:
+//font-size: 10px
+
+//FOOTNOTEREF
+//foreground:
+//background:
+//font-style:
+//font-size: 10px
+
+//GLOSSARY
+//foreground:
+//background:
+//font-style:
+//font-size: 10px
+
+//MATHSPAN
+//foreground:
+//background:
+//font-style:
+//font-size: 10px
+
+//FUTURETABLE
+//foreground:
+//background:
+//font-style:
+//font-size: 10px
+
+//TABLE
+//foreground:
+//background:
+//font-style:
+//font-size: 10px
+
+//TABLEROW
+//foreground:
+//background:
+//font-style:
+//font-size: 10px
+
+//TABLESEPARATOR
+//foreground:
+//background:
+//font-style:
+//font-size: 10px
+
+//CELLCONTENTS
+//foreground:
+//background:
+//font-style:
+//font-size: 10px
+
+//DEFTERM
+//foreground:
+//background:
+//font-style:
+//font-size: 10px
+
+//DEFINITION
+//foreground:
+//background:
+//font-style:
+//font-size: 10px
+
+//LABEL
+//foreground:
+//background:
+//font-style:
+//font-size: 10px
+
+//HARDBREAK
+//foreground:
+//background:
+//font-style:
+//font-size: 10px
 
 editor
 foreground: #base3
 background: #base0
+caret: #base4
+//font-size: 10px
 
 editor-selection
 foreground: #base3
 background: #base2
+//font-size: 10px
 
-editor-current-line
-foreground: #base3
-background: #base1
- 
-LINK
-foreground: 
-background: 
-font-style: 
- 
-AUTO_LINK_URL
-foreground: 
-background: 
-font-style: 
- 
-AUTO_LINK_EMAIL
-foreground: 
-background: 
-font-style: 
- 
-IMAGE
-foreground: 
-background: 
-font-style: 
- 
-CODE
-foreground: 
-background: 
-font-style: 
- 
-HTML
-foreground: 
-background: 
- 
-HTML_ENTITY
-foreground: 
-background: 
-font-style: 
- 
-EMPH
-font-style: italic
- 
-STRONG
-font-style: bold
- 
-LIST_BULLET
-foreground: 
-background: 
-font-style: 
- 
-LIST_ENUMERATOR
-foreground: 
-background: 
-font-style: 
- 
-COMMENT
-foreground: #base2
-background: #base0
-font-style: italic
- 
-H1
-foreground: 
-background: 
-font-style: 
- 
-H2
-foreground: 
-background: 
-font-style: 
- 
-H3
-foreground: 
-background: 
-font-style: 
- 
-H4
-foreground: 
-background: 
-font-style: 
- 
-H5
-foreground: 
-background: 
-font-style: 
- 
-H6
-foreground: 
-background: 
-font-style: 
- 
-BLOCKQUOTE
-foreground: 
-background: 
-font-style: 
- 
-VERBATIM
-foreground: 
-background: 
-font-style: 
- 
-HTMLBLOCK
-foreground: 
-background: 
-font-style: 
- 
-HRULE
-foreground: 
-background: 
-font-style: 
- 
-REFERENCE
-foreground: 
-background: 
-font-style: 
- 
-NOTE
-foreground: 
-background: 
-font-style: 
- 
-METADATA
-foreground: 
-background: 
-font-style: 
- 
-METAKEY
-foreground: 
-background: 
-font-style: 
- 
-METAVALUE
-foreground: 
-background: 
-font-style: 
- 
-CITATION
-foreground: 
-background: 
-font-style: 
- 
-FOOTNOTE
-foreground: 
-background: 
-font-style: 
- 
-FOOTNOTEREF
-foreground: 
-background: 
-font-style: 
- 
-GLOSSARY
-foreground: 
-background: 
-font-style: 
- 
-MATHSPAN
-foreground: 
-background: 
-font-style: 
- 
-FUTURETABLE
-foreground: 
-background: 
-font-style: 
- 
-TABLE
-foreground: 
-background: 
-font-style: 
- 
-TABLEROW
-foreground: 
-background: 
-font-style: 
- 
-TABLESEPARATOR
-foreground: 
-background: 
-font-style: 
- 
-CELLCONTENTS
-foreground: 
-background: 
-font-style: 
- 
-DEFTERM
-foreground: 
-background: 
-font-style: 
- 
-DEFINITION
-foreground: 
-background: 
-font-style: 
- 
-PARA
-foreground: 
-background: 
-font-style: 
- 
-LABEL
-foreground: 
-background: 
-font-style: 
- 
-HARDBREAK
-foreground: 
-background: 
-font-style: 
- 
-LIST
-foreground: 
-background: 
-font-style: 
- 
-
+//editor-current-line
+//foreground: #base3
+//background: #base1
+//font-size: 10px
