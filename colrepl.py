@@ -38,8 +38,9 @@ def main(argv):
 
 
 def usage():
-    print '''USAGE: fixbib.py [options] <filename>
-       Fixes BibTeX output from Papers 2: Corrects escapes and preserves capitalizations.
+    print '''USAGE: colrep.py [options] <filename>
+        Replaces specified named colors in a .colstyle file with their
+        RGB specified values.
 
        -h    help'''
 
